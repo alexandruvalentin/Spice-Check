@@ -1,45 +1,169 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Spice Check
 
-Welcome USER_NAME,
+This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS. Spice Check is an educational project that serves as the Milestone Project number 2 for the Full-Stack Software Developer program powered by Code Institute.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Demo 
 
-## Gitpod Reminders
+ [Live Website](https://alexandruvalentin.github.io/Spice-Check/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
+### __Business Goals__
 
-A blue button should appear to click: *Make Public*,
+-	Launch an online recipe book where users can search for culinary recipes and also for meal ideas based on their items already available in the fridge;
+-	Create an online presence and build a community of followers;
+-	Keep users up to date with new recipes and kitchen tips & tricks;
+-	Provide a place where users can submit their recipes and get featured;
 
-Another blue button should appear to click: *Open Browser*.
+### __Customer Goals__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+-	Learn about new food recipes;
+-	Find meal ideas based on the items available to them;
+-	Submit recipes or any query;
+-	Access to detailed information about each recipe (calories, diet labels etc);
+-	Stay up to date with the brand’s social media accounts;
+-	A responsive, professional website; 
 
-A blue button should appear to click: *Make Public*,
+### __User Stories__
 
-Another blue button should appear to click: *Open Browser*.
+1.	"As a first-time visitor, I want to navigate through your website quickly and efficiently."
+2.	"As a first-time visitor, I want to easily understand the purpose of your website."
+3.	“As a first-time visitor, I want to have a broad range of search filters available to choose from.”
+4.	"As a returning visitor, I want to follow your social media accounts in order to join the community."
+5.	“As a returning visitor, I want to be able to submit queries/recipes via form input.”
+6.	"As a frequent visitor, I want to be able to access your website across a range of devices."
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### __Scope__
 
-## Updates Since The Instructional Video
+* __Functional requirements:__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    -   Option to easily navigate through the pages and content;
+    -  Option to search the web for desired meals/recipes;
+    -  Option to view social media accounts;
+    -  Option to submit form;
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* __Content requirements:__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    -	Compelling content that communicates the purpose of the website;
+    -	Content flexibility for easier scanning;
+    -	Mixed media content for easy understanding of concepts presented;
+    -	Various CTAs;
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### __Structure__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ The website is designed to be intuitive and learnable
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+1.	Interaction design:
+-	The interface responds to the user actions as expected. The scroll/swipe functional behaviour is standard and the buttons respond instantly when actioned;
+-	Subtle visual feedback will be added throughout the page(on hover, focus and action of buttons and search fields) in order to increase the user's interaction experience;
+2.	Information architecture
+-	The content is organised in order of importance, from top to bottom and left to right
+-	The information is structured in nested lists.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### __Skeleton__
 
---------
+* Wireframes
 
-Happy coding!
+    To be updated
+ 
+### __Design Choices__
+
+* Colors
+
+    To be updated
+
+* Typography
+
+    To be updated
+
+* Media
+
+    To be updated
+
+* Iconography
+
+    To be updated
+
+## Features
+
+To be updated
+
+## Technologies Used
+
+- Workspace
+    * [Gitpod](https://gitpod.io/) was used as an online Integrated Development Environment
+
+- Languages
+    * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    * [CSS3](https://en.wikipedia.org/wiki/CSS)
+    * [JavaScript](https://ro.wikipedia.org/wiki/JavaScript)
+
+- Frameworks & Libraries
+    * [Font Awesome](https://fontawesome.com/) icons were used to improve aesthetics and [UX](#ux)
+    * [Google Fonts](https://fonts.google.com/) was also used to enhance the user experience
+
+- Version Control
+    * [Github](https://www.github.com) for repository hosting
+
+- Wireframes
+    * [Balsamiq](https://balsamiq.com/) for creating the [wireframes](#wireframes)
+
+- Media
+    * [ConvertIco](https://convertico.com/) for converting the logo format from .png to .ico
+    * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
+    * [Photopea](https://www.photopea.com/) was used to edit images
+    * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for resizing images
+
+## Testing
+ - ### Click [here](https://github.com/alexandruvalentin/Spice-Check/blob/master/TEST.md) for the full testing process.
+
+
+## Deployment
+
+- ### GitHub Pages
+  The project is hosted by GitHub Pages. To deploy it, follow the steps:
+  1. Log in to GitHub and locate the [Spice-Check Repository](https://github.com/alexandruvalentin/Spice-Check).
+  2. At the top of the Repository, click on the "Settings" Button on the menu.
+  3. Scroll down the Settings page and find the "GitHub Pages" Section.
+  4. Under "Source", click on the dropdown called "**None**" and select "**main**" branch.
+  5. The page will automatically refresh.
+  6. Scroll back down through the page to locate the now published [site link](https://alexandruvalentin.github.io/Spice-Check/) in the "GitHub Pages" section.
+- ### To fork the GitHub Repository
+  By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+  1. Log in to GitHub and locate the [Spice-Check Repository](https://github.com/alexandruvalentin/Spice-Check).
+  2. At the top right of the Repository just above the "Settings" Button on the menu, locate and click the "**Fork**" Button.
+  3. You should now have a copy of the original repository in your GitHub account.
+- ### To make a Local Clone
+  1. Log in to GitHub and locate the [Spice-Check Repository](https://github.com/alexandruvalentin/Spice-Check).
+  2. At the top of the Repository just above the list of files, locate and click the "**Code**" dropdown.
+  3. To clone the repository using HTTPS, under "**Clone**", make sure "**HTTPS**" is selected and copy the link.
+  4. Open Git Bash.
+  5. Change the current working directory to the location where you want the cloned directory to be made.
+  6. Type ```git clone```, and then paste the URL you copied in Step 3.
+    ```
+    $ git clone https://github.com/alexandruvalentin/Spice-Check.git
+    ```
+  7. Press Enter. Your local clone will be created.
+   
+  Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to find more details about the above process.
+
+## Credits
+
+  - ### Media
+    - [ConvertIco](https://convertico.com/) for converting logo format(.png to .ico).
+    - [Unsplash](https://unsplash.com/) and [Shutterstock](https://www.shutterstock.com/home) for all photos shown on website except for the logo.
+    - [Adobe Photoshop](https://photoshop.com/en) for adding the brand logo on the box of the third image of the How It Works section.
+    - [Coolors](https://coolors.co/) for generating the color palette.
+
+  - ### Code
+    - [Stack Overflow](https://stackoverflow.com/) as a general source.
+    - [W3Schools](https://www.w3schools.com/) as a general source.
+    - [CSS-Tricks](https://css-tricks.com/) as a general source.
+    - [Matt Rudge of Code Institute](https://codeinstitute.net/) for the opaque-overlay of the hero image.
+
+## Acknowledgements
+
+- **My mentor**: Precious Ijege for continuous and helpful feedback throughout the project.
+- The **Slack** community of Code Institute for feedback.
+- **Peer student**: [Paul Istratoaie](https://github.com/pinco227) for helpful feedback throughout the coding process and for helping with device testing.
