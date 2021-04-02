@@ -63,7 +63,7 @@
 
 .navbar__links {
     font-weight: 400;
-    color: #fff;
+    color: #DDDBF1;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -126,7 +126,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background-color: #fff;
+        background-color: #DDDBF1;
     }
 
     .navbar__item {
@@ -221,7 +221,7 @@
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #DDDBF1;
     margin-top: 2rem;
     margin-right: 1rem;
     cursor: pointer;
@@ -233,7 +233,7 @@
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: #DDDBF1;
     text-decoration: none;
 }
 
@@ -250,7 +250,7 @@
 }
 
 .main__btn:hover {
-    color: #fff;
+    color: #DDDBF1;
 }
 
 .main__btn:hover:after {
@@ -333,7 +333,7 @@
     background-image: linear-gradient(to top, #1BE7FF 0%, #DDDBF1 50%, #E76D83 100%);
     background-size: 100%;
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 5rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -354,7 +354,7 @@
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url("/assets/images/foodpic1.jpg");
     background-size: cover;
     position: relative;
-    color: #fff;
+    color: #DDDBF1;
 }
 
 .services__card:nth-child(2) {
@@ -377,7 +377,7 @@
 }
 
 .services__btn {
-    color: #fff;
+    color: #DDDBF1;
     padding: 10px 25px;
     border: none;
     outline: none;
@@ -392,7 +392,7 @@
 
 .services__btn a {
     text-decoration: none;
-    color: #fff;
+    color: #DDDBF1;
 }
 
 .services__card:hover {
@@ -433,3 +433,60 @@
         width: 350px;
     }
 }
+
+/* ABOUT SECTION */
+
+.about {
+    background-color: #383F51;
+}
+
+.about h1 {
+    background: #1BE7FF;
+    background-image: linear-gradient(to top, #1BE7FF 0%, #DDDBF1 50%, #E76D83 100%);
+    background-size: 100%;
+    font-size: 5rem;
+    text-align: center;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.about__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 80vh;
+    background-color: #383F51;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 80px;
+}
+
+.about__content {
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    max-width: 500px;
+    color: #DDDBF1;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.about__content p {
+    text-align: center;
+}
+
+.about__content__img {
+    text-align: center;
+}
+
+#about__img {
+    height: 80%;
+    width: 80%;
+}
+
