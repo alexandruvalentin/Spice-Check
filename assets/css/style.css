@@ -5,6 +5,8 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+/* NAVIGATION BAR */
+
 .navbar {
     background: #383F51;
     height: 80px;
@@ -75,6 +77,9 @@
     color: #F79256;
     transition: all 0.4s ease;
 }
+
+
+/* NAVBAR - MEDIA QUERIES */
 
 @media screen and (max-width: 960px) {
     .navbar__container {
@@ -163,7 +168,7 @@
     }
 }
 
-/* Hero Section */
+/* HERO SECTION */
 
 .main {
     background-color: #383F51;
@@ -259,4 +264,56 @@
 #main__img {
     height: 100%;
     width: 100%;
+}
+
+
+/* HERO SECTION - MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1 {
+        font-size: 4.5rem;
+        margin-top: 4rem;
+    }
+
+    .main__content h2 {
+        font-size: 4.5rem;
+    }
+    
+    .main__btn {
+        font-size: 1.8rem;
+        padding: 12px 36px;
+        margin: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main__content h1 {
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+
+    .main__content h2 {
+        font-size: 3.5rem;
+    }
+
+    .main__btn {
+        font-size: 1.5rem;
+        padding: 10px 32px;
+        margin: 1rem 0;
+    }
 }
