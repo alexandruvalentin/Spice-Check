@@ -65,7 +65,11 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
 * Wireframes
 
-    To be updated
+    * [Mobile View for Home Page and Menu](https://github.com/alexandruvalentin/Spice-Check/blob/master/wireframes/Mobile1.png)
+    * [Mobile View for Recipe Book Search Page](https://github.com/alexandruvalentin/Spice-Check/blob/master/wireframes/Mobile2.png)
+    * [Desktop View for Home Page](https://github.com/alexandruvalentin/Spice-Check/blob/master/wireframes/Desktop1.png)
+    * [Desktop View for Recipe Search Page](https://github.com/alexandruvalentin/Spice-Check/blob/master/wireframes/Desktop2.png)
+    * [Tablet View for Home Page](https://github.com/alexandruvalentin/Spice-Check/blob/master/wireframes/Tablet.png)
  
 ### __Design Choices__
 
