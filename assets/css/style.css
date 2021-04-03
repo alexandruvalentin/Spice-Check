@@ -2,13 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Londrina Solid', cursive;
 }
 
 /* NAVIGATION BAR */
 
 .navbar {
-    background: #383F51;
+    background: #F5F0F6;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -32,8 +32,8 @@
 
 #navbar__logo {
     font-weight: 700;
-    background-color: #DDDBF1;
-    background-image: linear-gradient(to top, #E76D83 0%, #F79256 100%);
+    background-color: #8F754F;
+    background-image: linear-gradient(to top, #8F754F 0%, #D7B377 100%); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -62,8 +62,9 @@
 }
 
 .navbar__links {
+    text-transform: uppercase;
     font-weight: 400;
-    color: #DDDBF1;
+    color: #D7B377;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -74,7 +75,7 @@
 }
 
 .navbar__links:hover {
-    color: #F79256;
+    color: #8F754F;
     transition: all 0.4s ease;
 }
 
@@ -93,7 +94,7 @@
     }
 
     .navbar__menu {
-        background: #383F51;
+        background: #F5F0F6;
         display: grid;
         grid-template-columns: auto;
         margin: 0;
@@ -108,12 +109,12 @@
     }
 
     .navbar__menu.active {
-        background: #383F51;
+        background: #F5F0F6;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
+        height: 60vh;
         font-size: 1.6rem;
     }
 
@@ -122,11 +123,11 @@
     }
 
     .navbar__toggle .bar {
-        width: 25px;
-        height: 3px;
+        width: 30px;
+        height: 4px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background-color: #DDDBF1;
+        background-color: #D7B377;
     }
 
     .navbar__item {
@@ -138,6 +139,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+        justify-content: center;
     }
 
     #mobile-menu {
@@ -160,18 +162,18 @@
     }
 
     #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
     }
 
     #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg);
     }
 }
 
 /* HERO SECTION */
 
 .main {
-    background-color: #383F51;
+    background-color: #F5F0F6;
 }
 
 .main__container {
@@ -181,7 +183,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #383F51;
+    background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -192,8 +194,8 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 6rem;
-    background-color: #DDDBF1;
-    background-image: linear-gradient(to top, #DDDBF1 0%, #1BE7FF 100%);
+    background-color: #57CC99;
+    background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -205,8 +207,8 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-size: 6rem;
-    background-color: #DDDBF1;
-    background-image: linear-gradient(to top, #E76D83 0%, #F79256 100%);
+    background-color: #8F754F;
+    background-image: linear-gradient(to top, #8F754F 0%, #D7B377 100%); 
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -217,23 +219,23 @@
 .main__btn {
     text-transform: uppercase;
     font-size: 2rem;
-    background-image: linear-gradient(to top, #E76D83 0%, #F79256 100%);
+    background-image: linear-gradient(to top, #D7B377 0%, #D7B377 100%);
     padding: 14px 32px;
     border: none;
     border-radius: 4px;
-    color: #DDDBF1;
+    color: #fff;
     margin-top: 2rem;
     margin-right: 1rem;
     cursor: pointer;
     position: relative;
-    transition: all 0.4s;
+    transition: all 0.3s;
     outline: none;
 }
 
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #DDDBF1;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -244,13 +246,13 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #1BE7FF;
+    background: #8F754F;
     transition: all 0.4s;
     border-radius: 4px;
 }
 
 .main__btn:hover {
-    color: #DDDBF1;
+    color: #fff;
 }
 
 .main__btn:hover:after {
@@ -321,16 +323,16 @@
 /* SERVICES SECTION */
 
 .services {
-    background: #383F51;
+    background: #F5F0F6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .services h1 {
-    background: #1BE7FF;
-    background-image: linear-gradient(to top, #1BE7FF 0%, #DDDBF1 50%, #E76D83 100%);
+    background-color: #57CC99;
+    background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
     margin-bottom: 2rem;
     font-size: 5rem;
@@ -349,12 +351,12 @@
 .services__card {
     margin: 1rem;
     height: 525px;
-    width: 400px;
+    width: 420px;
     border-radius: 4px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17, 17, 17, 0.6) 100%), url("/assets/images/foodpic1.jpg");
     background-size: cover;
     position: relative;
-    color: #DDDBF1;
+    color: #fff;
 }
 
 .services__card:nth-child(2) {
@@ -363,7 +365,7 @@
 
 .services h2 {
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 0.5px;
     top: 350px;
     left: 30px;
@@ -377,7 +379,7 @@
 }
 
 .services__btn {
-    color: #DDDBF1;
+    color: #fff;
     padding: 10px 25px;
     border: none;
     outline: none;
@@ -392,7 +394,7 @@
 
 .services__btn a {
     text-decoration: none;
-    color: #DDDBF1;
+    color: #fff;
 }
 
 .services__card:hover {
@@ -437,12 +439,12 @@
 /* ABOUT SECTION */
 
 .about {
-    background-color: #383F51;
+    background-color: #F5F0F6;
 }
 
 .about h1 {
-    background: #1BE7FF;
-    background-image: linear-gradient(to top, #1BE7FF 0%, #DDDBF1 50%, #E76D83 100%);
+    background-color: #57CC99;
+    background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
     font-size: 5rem;
     text-align: center;
@@ -459,7 +461,7 @@
     justify-self: center;
     margin: 0 auto;
     height: 80vh;
-    background-color: #383F51;
+    background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -472,7 +474,7 @@
     position: relative;
     justify-self: center;
     max-width: 500px;
-    color: #DDDBF1;
+    color: #fff;
     width: 80%;
     font-size: 1.5rem;
 }
