@@ -467,20 +467,30 @@
 }
 
 .about__content {
-    text-align: center;
-    display: flex;
+    display: inline-block;
     position: relative;
-    justify-self: center;
     max-width: 500px;
     color: #8F754F;
     width: 80%;
     font-size: 1.5rem;
 }
 
-.about__content p {
+.about__content h2 {
+    background-color: #8F754F;
+    background-image: linear-gradient(to top, #8F754F 0%, #D7B377 100%); 
+    background-size: 100%;
+    font-size: 3rem;
+    margin-bottom: 12px;
     text-align: left;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.about__content p {
     font-weight: 300;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 .about__content__swiper {
