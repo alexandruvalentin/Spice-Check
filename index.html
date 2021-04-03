@@ -11,6 +11,7 @@
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -85,9 +86,6 @@
     <section class="about">
         <h1>ABOUT US</h1>
         <div class="about__container">
-            <div class="about__content__img">
-                <img src="/assets/images/chef.svg" alt="Chef Hat" id="about__img">
-            </div>
             <div class="about__content">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -97,11 +95,36 @@
                     publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
+            <div class="about__content__swiper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="/assets/images/1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/assets/images/2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/assets/images/3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/assets/images/4.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
 
 
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--Vertical Swiper Credits:
+    https://github.com/nolimits4web/Swiper/blob/master/demos/090-vertical.html
+    -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      loop: true,
+    });
+  </script>
 </body>
 
 </html>
