@@ -403,7 +403,15 @@
 /* SERVICES SECTION - MEDIA QUERIES */
 @media screen and (max-width: 960px) {
     .services {
-        height: 1600px; 
+        height: 1450px; 
+    }
+
+    .services__card {
+        margin: 2rem;
+    }
+
+    .services__container {
+        display: inline-block;
     }
 
     .services h1 {
@@ -422,7 +430,7 @@
     }
 
     .services h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .services p {
@@ -458,7 +466,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 80vh;
+    height: 60vh;
     background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
@@ -467,21 +475,18 @@
 }
 
 .about__content {
-    display: inline-block;
+    display: inline-flexbox;
+    margin: 0 auto;
     position: relative;
-    max-width: 500px;
-    color: #8F754F;
-    width: 80%;
-    font-size: 1.5rem;
+    width: 100%;
 }
 
 .about__content h2 {
     background-color: #8F754F;
     background-image: linear-gradient(to top, #8F754F 0%, #D7B377 100%); 
     background-size: 100%;
-    font-size: 3rem;
-    margin-bottom: 12px;
-    text-align: left;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -489,8 +494,10 @@
 }
 
 .about__content p {
+    text-align: left;
     font-weight: 300;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    color: #8F754F;
 }
 
 .about__content__swiper {
@@ -543,6 +550,62 @@
     outline: none;
     border: none;
     margin: 1rem 0;
+}
+
+/* ABOUT SECTION - MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+    .about__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .about__content {
+        text-align: center;
+        max-width: 60%;
+    }
+
+    .about__content p {
+        text-align: center;
+    }
+
+    .about h1 {
+        margin-bottom: 32px;
+    }
+
+    .about h2 {
+        font-size: 2.6rem;
+    }
+
+    .about__content__swiper {
+        display: flex;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        height: 900px;
+    } 
+
+    .about h2 {
+        font-size: 2.4rem;
+    }
+
+    .about__content__swiper {
+    width: 500px;
+    height: 360px;
+    }
+
+    .swiper-pagination .swiper-pagination-bullet {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 
