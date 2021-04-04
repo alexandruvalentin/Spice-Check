@@ -502,12 +502,16 @@
 
 .about__content__swiper {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    vertical-align: middle;
+    justify-content: center;
     width: 560px;
     height: 420px;
 }
+
+.about__content__swiper .swiper-pagination {
+    margin-top: 360px;
+}
+
 
 /* SWIPER CONTAINER
 (credits: https://github.com/nolimits4web/Swiper/blob/master/demos/090-vertical.html) */
@@ -544,12 +548,12 @@
 .swiper-pagination .swiper-pagination-bullet {
     width: 20px;
     height: 20px;
-    display: flex;
+    display: inline-block;
     border-radius: 0px;
     background: #D7B377;
     outline: none;
     border: none;
-    margin: 1rem 0;
+    margin: 0 1rem;
 }
 
 /* ABOUT SECTION - MEDIA QUERIES */
@@ -605,6 +609,28 @@
     .swiper-pagination .swiper-pagination-bullet {
         width: 18px;
         height: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about__container {
+        padding: 0 60px;
+    }
+    
+    .about__content__swiper {
+        width: 460px;
+        height: 320px;
+    }
+
+    .swiper-container img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .swiper-pagination .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+        margin: 0 0.8rem;
     }
 }
 
