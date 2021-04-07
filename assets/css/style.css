@@ -853,3 +853,59 @@
     font-size: 1.2rem;
     font-weight: 300;
 }
+
+/* FOOTER SECTION - MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    #footer__logo {
+    font-size: 6rem;  
+    margin: 60px 0; 
+    }
+
+    .social__icon__link {
+    font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer {
+        padding: 2rem 0;
+        height: 40vh;
+    }
+
+    #footer__logo {
+    font-size: 4rem;  
+    margin: 40px 0; 
+    }
+
+    .social__icon__link {
+    font-size: 2.4rem;
+    }
+
+    .social__icons {
+        width: 260px;
+    }
+
+    .copy__rights {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .footer {
+        padding: 0;
+        height: 30vh;
+    }
+    #footer__logo {
+    font-size: 3rem;  
+    margin: 20px 0; 
+    }
+
+    .social__icon__link {
+    font-size: 2.5rem;
+    }
+
+    .social__icons {
+        width: 220px;
+    }
+}
