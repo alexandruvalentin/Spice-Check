@@ -415,8 +415,13 @@
     }
 
     .services h1 {
-        font-size: 4rem;
         margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services h1 {
+        font-size: 4rem;
     }
 }
 
@@ -595,7 +600,11 @@
 @media screen and (max-width: 768px) {
     .about {
         height: 900px;
-    } 
+    }
+    
+    .about h1 {
+        font-size: 4rem;
+    }
 
     .about h2 {
         font-size: 2.4rem;
@@ -610,6 +619,10 @@
         width: 18px;
         height: 18px;
     }
+}
+
+@media screen and (max-width: 568px) {
+
 }
 
 @media screen and (max-width: 480px) {
@@ -778,6 +791,10 @@
 
     .contact__content p {
         text-align: center;
+    }
+
+    .contact h1 {
+        font-size: 4rem;
     }
 }
 
