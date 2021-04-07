@@ -613,8 +613,20 @@
 }
 
 @media screen and (max-width: 480px) {
+    .about h1 {
+        font-size: 3rem;
+    }
+
     .about__container {
         padding: 0 60px;
+    }
+
+    .about__content h2 {
+        font-size: 2.2rem;
+    }
+
+    .about__content p {
+        font-size: 1.4rem;
     }
     
     .about__content__swiper {
@@ -644,7 +656,7 @@
     background-color: #57CC99;
     background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 5rem;
     text-align: center;
     -webkit-background-clip: text;
@@ -732,6 +744,55 @@
     background-color: #8F754F;
     color: #FFF;
     transition: all 0.35s ease;
+}
+
+/* CONTACT CONTAINER - MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+    
+    .contact__content__img {
+    text-align: center;
+    }
+
+    .contact__content__img img {
+        margin-right: 0;
+    }
+
+    .contact__content {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .contact__content h2 {
+        text-align: center;
+    }
+
+    .contact__content p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .contact h1 {
+        font-size: 3rem;
+    }
+
+    .contact__content h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact__content p {
+        font-size: 1.4rem;
+    }
 }
 
 
