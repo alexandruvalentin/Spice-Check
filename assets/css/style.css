@@ -444,6 +444,7 @@
 
     .services__card {
         width: 350px;
+        margin: 2rem 0;
     }
 }
 
