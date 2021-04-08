@@ -12,9 +12,10 @@ searchForm.addEventListener('submit', (e) => {
 });
 
 async function fetchAPI (){
-    const baseURL = `https://api.edamam.com/search?q=chicken&app_id=${app_ID}&app_key=${app_KEY}`;
+    const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${app_ID}&app_key=${app_KEY}&to=20`;
     const response = await fetch(baseURL);
     const data = await response.json();
+    generateHTML(data.hits);
     console.log(data);
 }
 
@@ -27,3 +28,27 @@ If an opaque response serves your needs, set the request's mode to 'no-cors' to 
 Fixed it (temporarely) by installing the chrome extension Moesif Origin & CORS Changer
 (https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related)
 */
+
+/* Function to loop through the array of generated results */
+
+function generateHTML(results) {
+    let generatedHTML = '';
+    results.map(result => {
+        generatedHTML +=
+        `
+        <div class="search__result__item">
+        <img src="${result.recipe.image}" alt="Recipe Image" />
+        <div class="result__item__details">
+        <h2>${result.recipe.label}</h2>
+        <button class="view__btn">
+        <a href="${result.recipe.url}" target="_blank">View recipe</a>
+        </button>
+        </div>
+        <p class="result__item__data">Calories: ${result.recipe.calories.toFixed(0)}</p>
+        <p class="result__item__data">Meal Type: ${result.recipe.mealType}</p>
+        <p class="result__item__data">Diet Labels: ${result.recipe.dietLabels}</p>
+        </div>
+        `
+    })
+    searchResult.innerHTML = generatedHTML;
+};
