@@ -1,84 +1,102 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="shortcut icon" href="assets/images/pepper-hot-solid.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/pepper-hot-solid.ico"
+      type="image/x-icon"
+    />
     <title>Spice Check - Recipe Book</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- NAVBAR SECTION -->
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo">SPICE <i class="fas fa-pepper-hot"></i> CHECK</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"
+          >SPICE <i class="fas fa-pepper-hot"></i> CHECK</a
+        >
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="/index.html" class="navbar__links">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links">About</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/recipe.html" class="navbar__links">Recipe Book</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/contact.html" class="navbar__links">Contact</a>
-            </li>
-        </ul>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="/index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/" class="navbar__links">About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/recipe.html" class="navbar__links">Recipe Book</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/contact.html" class="navbar__links">Contact</a>
+        </li>
+      </ul>
     </nav>
 
     <!-- MAIN SECTION -->
     <section id="recipe__main">
-    <div class="recipe__container">
-    <h1>Look up recipes</h1>
-    <form>
-    <input type="text" placeholder="Search...">
-    <i class="fas fa-search"></i>
-    </form>
-    <div class="search__result">
-    <div class="search__result__item">
-    <img src="/assets/images/placeholder.jpg" alt="pic">
-    <div class="result__item__details">
-    <h2>This is a recipe</h2>
-    <a href="/">View recipe</a>
-    </div>
-    <p class="result__item__data">Calories: a ginormous amount mate</p>
-    </div>
-    <div class="search__result__item">
-    <img src="/assets/images/placeholder.jpg" alt="pic">
-    <div class="result__item__details">
-    <h2>This is a recipe</h2>
-    <a href="/">View recipe</a>
-    </div>
-    <p class="result__item__data">Calories: a ginormous amount mate</p>
-    </div>
-    <div class="search__result__item">
-    <img src="/assets/images/placeholder.jpg" alt="pic">
-    <div class="result__item__details">
-    <h2>This is a recipe</h2>
-    <a href="/">View recipe</a>
-    </div>
-    <p class="result__item__data">Calories: a ginormous amount mate</p>
-    </div>
-    </div>
-    </div>
-    
+      <div class="recipe__container">
+        <h1>Look up recipes</h1>
+        <form>
+          <input type="text" placeholder="Search..." />
+          <i class="fas fa-search"></i>
+        </form>
+        <div class="search__result">
+          <div class="search__result__item">
+            <img src="/assets/images/placeholder.jpg" alt="pic" />
+            <div class="result__item__details">
+              <h2>This is a recipe</h2>
+              <button class="view__btn">
+                <a href="/">View recipe</a>
+              </button>
+            </div>
+            <p class="result__item__data">Calories: a ginormous amount mate</p>
+          </div>
+          <div class="search__result__item">
+            <img src="/assets/images/placeholder.jpg" alt="pic" />
+            <div class="result__item__details">
+              <h2>This is a recipe</h2>
+              <button class="view__btn">
+                <a href="/">View recipe</a>
+              </button>
+            </div>
+            <p class="result__item__data">Calories: a ginormous amount mate</p>
+          </div>
+          <div class="search__result__item">
+            <img src="/assets/images/placeholder.jpg" alt="pic" />
+            <div class="result__item__details">
+              <h2>This is a recipe</h2>
+              <button class="view__btn">
+                <a href="/">View recipe</a>
+              </button>
+            </div>
+            <p class="result__item__data">Calories: a ginormous amount mate</p>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
-
+  </body>
 </html>
