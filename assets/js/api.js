@@ -46,8 +46,7 @@ function generateHTML(results) {
         </button>
         </div>
         <p class="result__item__data">Calories: ${result.recipe.calories.toFixed(0)}</p>
-        <p class="result__item__data">Meal Type: ${result.recipe.mealType}</p>
-        <p class="result__item__data">Diet Labels: ${result.recipe.dietLabels}</p>
+        <p class="result__item__data">Diet Labels: ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'No Data Found'}</p>
         </div>
         `
     })
