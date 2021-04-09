@@ -32,6 +32,7 @@ Fixed it (temporarely) by installing the chrome extension Moesif Origin & CORS C
 /* Function to loop through the array of generated results */
 
 function generateHTML(results) {
+    recipeContainer.classList.remove('before');
     let generatedHTML = '';
     results.map(result => {
         generatedHTML +=
