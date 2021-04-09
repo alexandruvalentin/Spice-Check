@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Londrina Solid', cursive;
+    scroll-behavior: smooth;
 }
 
 /* NAVIGATION BAR */
