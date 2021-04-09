@@ -957,6 +957,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    transition: margin 600ms, font-size 600ms;
 }
 
 .recipe__container form {
