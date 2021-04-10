@@ -1157,7 +1157,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: auto;
 }
 
 .contact__header {
@@ -1177,7 +1177,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 1.5rem;
-    height: 90vh;
+    height: 70vh;
     background-color: #F5F0F6;
     width: 100%;
     padding: 0 50px;
@@ -1261,11 +1261,36 @@
     margin: 6px 0 0 10px;
 }
 
-.error.hide {
+.hide {
     opacity: 0;
 }
 
 .form__control input.invalid {
     border-bottom: 1px solid red;
+}
+
+.thank__you {
+    text-align: center;
+    display: inline-block;
+}
+
+.thank__you h3 {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.thank__you p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.thank__you i {
+    margin: 1rem 1rem 0;
+    font-size: 3rem;
+}
+
+.thank__you a {
+    text-decoration: none;
 }
 
