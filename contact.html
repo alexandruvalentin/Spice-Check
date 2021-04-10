@@ -56,11 +56,10 @@
       </ul>
     </nav>
 
-    <section id="contact__main">
-      <h1 class="contact__header">Contact Us!</h1>
-      <p class="contact__p">We'd love to hear from you...</p>
-      <div class="contact__container">
-        <form action="/" method="GET">
+    <section id="contactform__main">
+      <h1 class="contact__header">We'd love to hear from you!</h1>
+      <div class="contactform__container">
+        <form action="/" method="GET" name="contact__form">
           <div class="form__control">
             <label>Full Name</label>
             <input name="name" placeholder="e.g. Leonardo DiCaprio" />
@@ -74,13 +73,7 @@
           </div>
 
           <div class="form__control">
-            <label>Phone</label>
-            <input name="phone" />
-            <div class="error hide">* phone number is invalid</div>
-          </div>
-
-          <div class="form-control">
-            <label>Your Message</label>
+            <label>Message</label>
             <textarea name="message" placeholder="Write your message..."></textarea>
             <div class="error hide">* message is required</div>
           </div>

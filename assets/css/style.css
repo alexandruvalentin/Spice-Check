@@ -1147,5 +1147,114 @@
     }
 }
 
+/* ------------------------ CONTACT.HTML ------------------------ */
+/* ------------------------------------------------------------- */
+
+#contactform__main {
+    background-color: #F5F0F6;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact__header {
+    background-color: #57CC99;
+    background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
+    background-size: 100%;
+    font-size: 5rem;
+    text-align: center;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.contactform__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #F5F0F6;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.form__control {
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+.form__control label {
+    display: block;
+    font-size: 1.7rem;
+    margin-bottom: 0.7rem;
+  }
+
+.form__control input {
+    padding: 10px;
+    border-radius: 0px;
+    width: 570px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 1.3rem;
+    font-weight: 300;
+    outline: none;
+    color: #333;
+  }
+
+.form__control input::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+.form__control textarea {
+        width: 570px;
+        background: transparent;
+        border-radius: 0px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #000;
+        padding: 10px;
+        height: 200px;
+        font-size: 1.3rem;
+        resize: none;
+}
+
+.form__control textarea::placeholder {
+    color: rgb(168, 168, 168);
+}
+
+.contactform__container button {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        background-color: #D7B377;
+        padding: 10px 28px;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
+        transition: 0.35s ease;
+}
+
+.contactform__container button:hover {
+    background-color: #8F754F;
+    color: #FFF;
+}
+
+.error {
+    color: red;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 6px 0 0 10px;
+}
+
+.error.hide {
+    opacity: 0;
+}
 
 
