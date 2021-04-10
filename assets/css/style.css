@@ -1176,7 +1176,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin-top: 1.5rem;
     height: 90vh;
     background-color: #F5F0F6;
     width: 100%;
@@ -1219,9 +1219,17 @@
         border: none;
         border-bottom: 1px solid #000;
         padding: 10px;
-        height: 200px;
+        height: 170px;
         font-size: 1.3rem;
         resize: none;
+}
+
+.form__control textarea::-webkit-scrollbar {
+    background-color: #F5F0F6;
+}
+
+.form__control textarea::-webkit-scrollbar-thumb {
+    background-color: #000;
 }
 
 .form__control textarea::placeholder {
