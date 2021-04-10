@@ -7,7 +7,21 @@ function isValidEmail(emailAddress) {
 const form = document.querySelector('form');
 const nameInput = document.querySelector('input[name="name"]');
 
+const validateInput = () => {
+    nameInput.classList.remove('invalid');
+    nameInput.nextElementSibling.classList.add('hide');
+
+    if (!nameInput.value) {
+        nameInput.classList.add('invalid');
+        nameInput.nextElementSibling.classList.remove('hide');
+    }
+}
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    console.log("boo-ya");
+    validateInput();
+})
+
+nameInput.addEventListener("input", () => {
+    validateInput();
 })
