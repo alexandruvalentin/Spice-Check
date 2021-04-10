@@ -1,46 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="shortcut icon" href="assets/images/pepper-hot-solid.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/pepper-hot-solid.ico"
+      type="image/x-icon"
+    />
     <title>Spice Check - Contact Us</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- NAVBAR SECTION -->
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo">SPICE <i class="fas fa-pepper-hot"></i> CHECK</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"
+          >SPICE <i class="fas fa-pepper-hot"></i> CHECK</a
+        >
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="index.html" class="navbar__links">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links">About</a>
-            </li>
-            <li class="navbar__item">
-                <a href="recipe.html" class="navbar__links">Recipe Book</a>
-            </li>
-            <li class="navbar__item">
-                <a href="contact.html" class="navbar__links">Contact</a>
-            </li>
-        </ul>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a href="/index.html#about" class="navbar__links">About</a>
+        </li>
+        <li class="navbar__item">
+          <a href="recipe.html" class="navbar__links">Recipe Book</a>
+        </li>
+        <li class="navbar__item">
+          <a href="contact.html" class="navbar__links">Contact</a>
+        </li>
+      </ul>
     </nav>
-</body>
 
+    <section id="contact__main">
+      <h1 class="contact__header">Contact Us!</h1>
+      <p class="contact__p">We'd love to hear from you...</p>
+      <div class="contact__container">
+        <form action="/" method="GET">
+          <div class="form__control">
+            <label>Full Name</label>
+            <input name="name" placeholder="e.g. Leonardo DiCaprio" />
+            <div class="error hide">* name is required</div>
+          </div>
+
+          <div class="form__control">
+            <label>Email Address</label>
+            <input name="email" placeholder="e.g. your_email@example.com" />
+            <div class="error hide">* email address is invalid</div>
+          </div>
+
+          <div class="form__control">
+            <label>Phone</label>
+            <input name="phone" />
+            <div class="error hide">* phone number is invalid</div>
+          </div>
+
+          <div class="form-control">
+            <label>Your Message</label>
+            <textarea name="message" placeholder="Write your message..."></textarea>
+            <div class="error hide">* message is required</div>
+          </div>
+
+          <button type="submit">SUBMIT & YEET</button>
+        </form>
+      </div>
+    </section>
+    <script src="assets/js/contactform.js"></script>
+  </body>
 </html>
