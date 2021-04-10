@@ -947,6 +947,7 @@
 }
 
 .recipe__container .header {
+    text-align: center;
     text-transform: uppercase;
     margin-top: 2rem;
     font-size: 4.2rem;
@@ -1008,6 +1009,7 @@
 }
 
 .recipe__container.before .header {
+    text-align: center;
     text-transform: uppercase;
     margin-top: 10rem;
     font-size: 7rem;
@@ -1118,4 +1120,27 @@
     background-color: #8F754F;
     color: #FFF;
     transition: all 0.25s ease;
+}
+
+/* RECIPE CONTAINER - MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+    .recipe__container.before .header {    
+        margin-top: 8rem;
+        font-size: 5rem;
+    }
+    
+    .recipe__container.before form {
+        max-width: 420px;
+        margin-top: 20px;
+    }
+    
+    .recipe__container.before input {
+        padding: 10px 0;
+        font-size: 2.5rem;
+    }
+
+    .recipe__container.before .fa-search {
+        font-size: 2.5rem;
+    }
 }
