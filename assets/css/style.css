@@ -1158,6 +1158,18 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    min-height: 90vh;
+}
+
+.contactform__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    height: 70vh;
+    background-color: #F5F0F6;
+    width: 100%;
+    padding: 0 50px;
 }
 
 .contact__header {
@@ -1170,17 +1182,6 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-}
-
-.contactform__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5rem;
-    height: 70vh;
-    background-color: #F5F0F6;
-    width: 100%;
-    padding: 0 50px;
 }
 
 .form__control {
@@ -1267,6 +1268,10 @@
 }
 
 .form__control input.invalid {
+    border-bottom: 1px solid red;
+}
+
+.form__control textarea.invalid {
     border-bottom: 1px solid red;
 }
 

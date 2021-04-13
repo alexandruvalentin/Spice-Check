@@ -8,12 +8,14 @@ const form = document.querySelector('form[name="contact__form"]');
 const thanks = document.querySelector('.thank__you');
 const nameInput = document.querySelector('input[name="name"]');
 const emailInput = document.querySelector('input[name="email"]');
+const messageInput = document.querySelector('textarea[name="message"]');
+const contactForm = document.querySelector('.contactform__container')
 
 
 let isFormValid = false;
 let isValidationOn = false;
 
-const inputs = [nameInput, emailInput];
+const inputs = [nameInput, emailInput, messageInput];
 
 const resetElm = (elm) => {
     elm.classList.remove('invalid');
@@ -40,6 +42,11 @@ const validateInput = () => {
         isFormValid = false;
         invalidateElm(emailInput);
     }
+
+    if (!messageInput.value) {
+        isFormValid = false;
+        invalidateElm(messageInput);
+    }
 }
 
 form.addEventListener("submit", (e) => {
@@ -47,7 +54,7 @@ form.addEventListener("submit", (e) => {
     isValidationOn = true;
     validateInput();
     if (isFormValid) {
-        form.remove();
+        contactForm.remove();
         thanks.classList.remove('hide');
     }
 })
