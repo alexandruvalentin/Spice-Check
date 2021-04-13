@@ -1301,3 +1301,92 @@
     text-decoration: none;
 }
 
+/* CONTACT.HTML - MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .contact__header {
+        font-size: 4rem;
+    }
+
+    .form__control {
+        font-size: 1.4rem;
+        margin-bottom: 0.4rem;
+      }
+    
+    .form__control label {
+        font-size: 1.4rem;
+        margin-bottom: 0.4rem;
+      }
+    
+    .form__control input {
+        width: 520px;
+        font-size: 1.2rem;
+      }
+
+    .form__control textarea {
+            width: 520px;
+            height: 120px;
+            font-size: 1.2rem;
+    }
+    
+    .contactform__container button {
+            font-size: 1.1rem;
+    }
+  
+    .error {
+        font-size: 1.2rem;
+        margin: 4px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .contact__header {
+        margin-bottom: 1.2rem;
+        font-size: 3.2rem;
+    }
+
+    .contactform__container {
+        margin-top: 0;
+    }
+
+    .form__control input {
+        width: 360px;
+    }
+
+    .form__control textarea {
+        width: 360px;
+    }
+
+    .thank__you h3 {
+        font-size: 1.7rem;
+    }
+
+    .thank__you p {
+        margin-top: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .thank__you i {
+        margin: 1.2rem 0.7rem 0;
+        font-size: 2rem;
+    }
+
+    .error {
+        font-size: 1rem;
+        margin: 2px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .contact__header {
+        font-size: 2.5rem;
+    }
+
+    .form__control input {
+        width: 300px;
+    }
+
+    .form__control textarea {
+        width: 300px;
+    }
+}
