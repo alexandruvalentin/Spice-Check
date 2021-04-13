@@ -29,8 +29,7 @@ const validateInput = () => {
     if(!isValidationOn) return;
 
     isFormValid = true;
-    resetElm(nameInput); 
-    resetElm(emailInput);
+    inputs.forEach(resetElm);
 
     if (!nameInput.value) {
         isFormValid = false;
