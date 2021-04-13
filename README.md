@@ -153,6 +153,8 @@ To be updated
   Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to find more details about the above process.
 
 ## Credits
+  - ### Content
+    - [Sketchy Bootswatch](https://bootswatch.com/sketchy/) as a design source.
 
   - ### Media
     - [ConvertIco](https://convertico.com/) for converting logo format(.png to .ico).
