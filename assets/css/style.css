@@ -173,6 +173,12 @@
     }
 }
 
+@media screen and (max-width: 568px) {
+    #navbar__logo {
+        font-size: 2.2rem;
+    }
+}
+
 /* HERO SECTION */
 
 .main {
