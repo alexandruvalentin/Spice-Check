@@ -4,14 +4,16 @@ function isValidEmail(emailAddress) {
     return pattern.test(emailAddress);
 };
 
-
 const form = document.querySelector('form[name="contact__form"]');
 const thanks = document.querySelector('.thank__you');
 const nameInput = document.querySelector('input[name="name"]');
 const emailInput = document.querySelector('input[name="email"]');
 
+
 let isFormValid = false;
 let isValidationOn = false;
+
+const inputs = [nameInput, emailInput];
 
 const resetElm = (elm) => {
     elm.classList.remove('invalid');
@@ -51,10 +53,8 @@ form.addEventListener("submit", (e) => {
     }
 })
 
-nameInput.addEventListener("input", () => {
-    validateInput();
-})
-
-emailInput.addEventListener("input", () => {
-    validateInput();
-})
+inputs.forEach(input => {
+    input.addEventListener("input", () => {
+        validateInput();
+    });
+});
