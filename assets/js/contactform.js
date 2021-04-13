@@ -4,24 +4,57 @@ function isValidEmail(emailAddress) {
     return pattern.test(emailAddress);
 };
 
-const form = document.querySelector('form');
+
+const form = document.querySelector('form[name="contact__form"]');
+const thanks = document.querySelector('.thank__you');
 const nameInput = document.querySelector('input[name="name"]');
+const emailInput = document.querySelector('input[name="email"]');
+
+let isFormValid = false;
+let isValidationOn = false;
+
+const resetElm = (elm) => {
+    elm.classList.remove('invalid');
+    elm.nextElementSibling.classList.add('hide');
+}
+
+const invalidateElm = (elm) => {
+    elm.classList.add('invalid');
+    elm.nextElementSibling.classList.remove('hide');
+}
 
 const validateInput = () => {
-    nameInput.classList.remove('invalid');
-    nameInput.nextElementSibling.classList.add('hide');
+    if(!isValidationOn) return;
+
+    isFormValid = true;
+    resetElm(nameInput); 
+    resetElm(emailInput);
 
     if (!nameInput.value) {
-        nameInput.classList.add('invalid');
-        nameInput.nextElementSibling.classList.remove('hide');
+        isFormValid = false;
+        invalidateElm(nameInput);
+    }
+
+    if (!isValidEmail(emailInput.value)) {
+        isFormValid = false;
+        invalidateElm(emailInput);
     }
 }
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
+    isValidationOn = true;
     validateInput();
+    if (isFormValid) {
+        form.remove();
+        thanks.classList.remove('hide');
+    }
 })
 
 nameInput.addEventListener("input", () => {
+    validateInput();
+})
+
+emailInput.addEventListener("input", () => {
     validateInput();
 })
