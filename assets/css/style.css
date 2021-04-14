@@ -409,7 +409,7 @@
 
 @media screen and (max-width: 480px) {
     .services {
-        height: 1400px;
+        height: 1300px;
     }
 
     .services h1 {
@@ -430,6 +430,26 @@
     }
 }
 
+@media screen and (max-width: 372px) {
+    .services__card {
+        width: 300px;
+        height: 440px;
+    }   
+    .services__card h2 {
+        top: 270px;
+        left: 20px;
+    }
+    
+    .services__card p {
+        top: 325px;
+        left: 20px;
+    }
+
+    .services__btn {
+        left: 20px;
+        top: 370px;
+    }
+}
 /* ABOUT SECTION */
 
 .about {
@@ -554,7 +574,7 @@
         justify-content: center;
         width: 100%;
         margin: 0 auto;
-        height: 90vh;
+        height: auto;
     }
 
     .about__content {
@@ -622,7 +642,7 @@
     }
     
     .about__content__swiper {
-        width: 380px;
+        width: 360px;
         height: 240px;
     }
 
@@ -786,7 +806,7 @@
 
 .footer {
     background-color: #F5F0F6;
-    padding: 4rem 0;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -855,7 +875,7 @@
 
 @media screen and (max-width: 568px) {
     .footer {
-        padding: 2rem 0;
+        padding: 2rem 1rem;
         height: 40vh;
     }
 
@@ -893,6 +913,10 @@
 
     .social__icons {
         width: 220px;
+    }
+
+    .copy__rights {
+        font-size: 0.8rem;
     }
 }
 
@@ -1113,6 +1137,12 @@
 
     .recipe__container.before .fa-search {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .recipe__container {
+        padding: 30px 10px;
     }
 }
 
