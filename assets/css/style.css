@@ -367,8 +367,6 @@
 .services__btn {
     color: #fff;
     padding: 10px 25px;
-    border: none;
-    outline: none;
     border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
     background: #F79256;
     position: absolute;
@@ -376,11 +374,7 @@
     left: 30px;
     font-size: 1.2rem;
     cursor: pointer;
-}
-
-.services__btn a {
     text-decoration: none;
-    color: #fff;
 }
 
 .services__card:hover {
@@ -715,33 +709,21 @@
 }
 
 .contact__btn {
+    display: inline-table;
     text-transform: uppercase;
     font-size: 1.4rem;
     background-color: #D7B377;
     padding: 12px 30px;
-    border: none;
     border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
     color: #fff;
     margin-top: 1.5rem;
     cursor: pointer;
-    outline: none;
     transition: 0.35s ease;
-}
-
-.contact__btn a {
-    color: #fff;
     text-decoration: none;
 }
 
 .contact__btn:hover {
     background-color: #8F754F;
-    color: #FFF;
-}
-
-.contact__btn a:hover {
-    background-color: #8F754F;
-    color: #FFF;
-    transition: all 0.35s ease;
 }
 
 /* CONTACT CONTAINER - MEDIA QUERIES */
