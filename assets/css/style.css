@@ -925,10 +925,11 @@
 
 #recipe__main {
     background-color: #F5F0F6;
+    min-height: calc(100vh - 80px);
 }
 
 .recipe__container {
-    min-height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -997,7 +998,7 @@
 /* RECIPE CONTAINER -- BEFORE */
 
 .recipe__container.before {
-    min-height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1168,8 +1169,7 @@
     flex-direction: column;
     justify-content: first-baseline;
     align-items: center;
-    height: auto;
-    min-height: 90vh;
+    min-height: calc(100vh - 80px);
 }
 
 .contactform__container {
@@ -1283,11 +1283,11 @@
 
 
 .form__control input.invalid {
-    border-bottom: 1px solid red;
+    border-bottom: 2.4px solid red;
 }
 
 .form__control textarea.invalid {
-    border-bottom: 1px solid red;
+    border-bottom: 2.4px solid red;
 }
 
 .thank__you {
