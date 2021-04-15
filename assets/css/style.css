@@ -976,6 +976,12 @@
     font-size: 1.8rem;
 }
 
+.recipe__container .search__btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 .recipe__container .fa-search {
     font-size: 1.8rem;
     color: rgb(168, 168, 168);
@@ -1045,6 +1051,12 @@
 .recipe__container.before .fa-search {
     font-size: 3rem;
     color: rgb(168, 168, 168);
+}
+
+.recipe__container.before .search__btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .search__result {
