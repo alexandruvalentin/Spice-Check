@@ -517,7 +517,7 @@
 }
 
 .about__content__swiper .swiper-pagination {
-    margin-top: 360px;
+    margin-top: 420px;
 }
 
 
@@ -1162,10 +1162,10 @@
 
 .contactform__container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 1.5rem;
-    height: 70vh;
+    height: auto;
     background-color: #F5F0F6;
     width: 100%;
     padding: 0 50px;
@@ -1186,7 +1186,7 @@
 
 .form__control {
     font-size: 1.7rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 2.2rem;
   }
 
 .form__control label {
@@ -1266,8 +1266,9 @@
 }
 
 .hide {
-    opacity: 0;
+    display: none;
 }
+
 
 .form__control input.invalid {
     border-bottom: 1px solid red;
@@ -1279,7 +1280,6 @@
 
 .thank__you {
     text-align: center;
-    display: inline-block;
 }
 
 .thank__you h3 {
