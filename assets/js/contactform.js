@@ -4,6 +4,12 @@ function isValidEmail(emailAddress) {
     return pattern.test(emailAddress);
 };
 
+// Credits for isValidName RegExp: https://stackoverflow.com/a/35458020/14692310
+function isValidName(fullName) {
+    var pattern = new RegExp(/^[A-Z][a-zA-Z]{3,}(?: [A-Z][a-zA-Z]*){0,2}$/i);
+    return pattern.test(fullName);
+}
+
 const form = document.querySelector('form[name="contact__form"]');
 const thanks = document.querySelector('.thank__you');
 const nameInput = document.querySelector('input[name="name"]');
@@ -33,7 +39,7 @@ const validateInput = () => {
     isFormValid = true;
     inputs.forEach(resetElm);
 
-    if (!nameInput.value) {
+    if (!isValidName(nameInput.value)) {
         isFormValid = false;
         invalidateElm(nameInput);
     }
