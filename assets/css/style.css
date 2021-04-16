@@ -409,7 +409,7 @@
 
 @media screen and (max-width: 480px) {
     .services {
-        height: 1300px;
+        height: auto;
     }
 
     .services h1 {
@@ -454,6 +454,7 @@
 
 .about {
     background-color: #F5F0F6;
+    min-height: calc(100vh - 80px);
 }
 
 .about h1 {
@@ -474,7 +475,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 70vh;
+    height: auto;
     background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
@@ -574,7 +575,7 @@
         justify-content: center;
         width: 100%;
         margin: 0 auto;
-        height: auto;
+        height: 100vh;
     }
 
     .about__content {
@@ -597,6 +598,11 @@
     .about__content__swiper {
         display: flex;
         justify-self: center;
+    }
+
+    .about__content__swiper .swiper-pagination {
+        margin-top: 0;
+        margin-bottom: 400px;
     }
 }
 
@@ -622,9 +628,16 @@
         width: 18px;
         height: 18px;
     }
+
+    .about__content__swiper .swiper-pagination {
+        margin-bottom: 370px;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .about {
+        height: 800px;
+    }
     .about h1 {
         font-size: 3rem;
     }
@@ -656,12 +669,17 @@
         height: 14px;
         margin: 0 0.6rem;
     }
+
+    .about__content__swiper .swiper-pagination {
+        margin-bottom: 300px;
+    }
 }
 
 /* CONTACT SECTION */
 
 .contact {
     background-color: #F5F0F6;
+    min-height: calc(100vh - 80px);
 }
 
 .contact h1 {
@@ -683,7 +701,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 70vh;
+    height: auto;
     background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
@@ -748,7 +766,7 @@
 
 /* CONTACT CONTAINER - MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
     .contact__container {
         display: grid;
         grid-template-columns: auto;
@@ -759,6 +777,35 @@
         height: 90vh;
     }
 
+    .contact__content__img {
+        text-align: center;
+        }
+
+    .contact__content__img img {
+        margin-right: 0;
+        width: 60%;
+        height: 60%;
+    }
+
+    .contact__content {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .contact__content h2 {
+        text-align: center;
+    }
+
+    .contact__content p {
+        text-align: center;
+    }
+
+    .contact h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .contact__content__img {
     text-align: center;
     }
@@ -861,6 +908,12 @@
 }
 
 /* FOOTER SECTION - MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+    #footer__logo {
+        font-size: 7rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     #footer__logo {
