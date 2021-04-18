@@ -77,7 +77,7 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
 * Colors
 
-   ![Color Palette](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/color-palette.png)
+   ![Color Palette](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/color-palette.png)
 
 * Typography
 
@@ -95,7 +95,36 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
 ## Features
 
-To be updated
+### Home Page
+
+- ### Navigation Bar
+  The website consists of a landing page and two additional pages. The navigation bar will allow the user to navigate through the pages easily and will be visible at all times.
+
+- ### Full width Hero Section (Call to Action)
+  It provides the user with the opportunity to explore. This way, the website can promote its purpose right away and keep the user engaged.
+
+- ### Services Section (Call to Action)
+  Promotes the website's services and invites the user to easily access them.
+
+- ### About Section
+  Information on why we're here. Also presents a few culinary dishes via a slideshow gallery to help the user understand what could be achieved.
+
+- ### Contact Section (Call to Action)
+  Another invitation to explore the Contact Page where the user can further engage with the app.
+
+- ### Footer
+  Provides social media details and an actionable logo. Allows users to either explore social networks or return to the top of the page.
+
+### Recipe Book Page
+
+- ### Hero Call to Action
+  Simply consisting of a header and a search bar, invites the user to quickly explore the recipes available.
+
+### Contact Form Page
+
+- ### Contact Form
+  A validating contact form that guides the user to correctly make use of it and prevent malformed input in order to get in touch with us efficiently.
+
 
 ## Technologies Used
 
