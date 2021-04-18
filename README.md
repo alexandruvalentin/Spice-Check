@@ -30,19 +30,19 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
 1.	"As a first-time visitor, I want to navigate through your website quickly and efficiently."
 2.	"As a first-time visitor, I want to easily understand the purpose of your website."
-3.	“As a first-time visitor, I want to have a broad range of search filters available to choose from.”
+3.	“As a first-time visitor, I want to be able to search for recipes through a wide variety of keywords.”
 4.	"As a returning visitor, I want to follow your social media accounts in order to join the community."
-5.	“As a returning visitor, I want to be able to submit queries/recipes via form input.”
+5.	“As a returning visitor, I want to be able to get in touch via contact form input.”
 6.	"As a frequent visitor, I want to be able to access your website across a range of devices."
 
 ### __Scope__
 
 * __Functional requirements:__
 
-    -   Option to easily navigate through the pages and content;
+    -  Option to easily navigate through the pages and content;
     -  Option to search the web for desired meals/recipes;
     -  Option to view social media accounts;
-    -  Option to submit form;
+    -  Option to submit queries/recipes via contact form;
 
 * __Content requirements:__
 
@@ -77,7 +77,7 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
 * Colors
 
-   ![Color Palette](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/color-palette.png)
+   ![Color Palette](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/spicecheck-coolors.png)
 
 * Typography
 
@@ -199,7 +199,6 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
     - [Stack Overflow](https://stackoverflow.com/) as a general source.
     - [W3Schools](https://www.w3schools.com/) as a general source.
     - [CSS-Tricks](https://css-tricks.com/) as a general source.
-    - [Matt Rudge of Code Institute](https://codeinstitute.net/) for the opaque-overlay of the hero image.
 
 ## Acknowledgements
 
