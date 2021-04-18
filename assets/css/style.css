@@ -191,7 +191,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: calc(100vh - 80px);
     background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
@@ -250,70 +250,92 @@
 }
 
 #main__img {
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
 
 
 /* HERO SECTION - MEDIA QUERIES */
+@media screen and (max-width: 960px) {
+    .main__container {
+        padding: 0 40px;
+    }
+
+    .main__content h1 {
+        font-size: 4.5rem;
+    }
+
+    .main__content h2 {
+        font-size: 4.5rem;
+    }
+
+    .main__btn {
+        font-size: 1.8rem;
+        padding: 12px 36px;
+        margin-top: 1rem;
+    }
+} 
 
 @media screen and (max-width: 768px) {
     .main__container {
         display: grid;
         grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
     }
 
     .main__content {
         text-align: center;
-        margin-bottom: 4rem;
     }
 
     .main__content h1 {
-        font-size: 4.5rem;
-        margin-top: 4rem;
+        font-size: 4rem;
+        margin-top: 3rem;
     }
 
     .main__content h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     
     .main__btn {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         padding: 12px 36px;
-        margin: 1rem 1rem;
+        margin: 1rem 0.5rem;
+    }
+
+    #main__img {
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .main__content h1 {
-        font-size: 3.5rem;
-        margin-top: 4rem;
+        font-size: 2.5rem;
+        margin-top: 1rem;
     }
 
     .main__content h2 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .main__btn {
-        font-size: 1.3rem;
-        padding: 10px 32px;
-        margin: 1rem 0;
+        font-size: 1rem;
+        padding: 10px 26px;
+        margin: 0.5rem 0.2rem;
+    }
+
+    #main__img {
+        width: 80%;
     }
 }
 
 /* SERVICES SECTION */
 
 .services {
+    padding: 40px 0;
     background: #F5F0F6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 .services h1 {
@@ -322,6 +344,7 @@
     background-size: 100%;
     margin-bottom: 2rem;
     font-size: 5rem;
+    text-align: center;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -384,20 +407,12 @@
 
 /* SERVICES SECTION - MEDIA QUERIES */
 @media screen and (max-width: 960px) {
-    .services {
-        height: 1450px; 
-    }
-
     .services__card {
         margin: 2rem;
     }
 
     .services__container {
         display: inline-block;
-    }
-
-    .services h1 {
-        margin-top: 10rem;
     }
 }
 
@@ -408,10 +423,6 @@
 }
 
 @media screen and (max-width: 480px) {
-    .services {
-        height: auto;
-    }
-
     .services h1 {
         font-size: 3rem;
     }
@@ -454,7 +465,7 @@
 
 .about {
     background-color: #F5F0F6;
-    min-height: calc(100vh - 80px);
+    height: calc(100vh - 80px);
 }
 
 .about h1 {
@@ -462,6 +473,7 @@
     background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
     font-size: 5rem;
+    padding: 0 80px;
     text-align: center;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -475,16 +487,15 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: auto;
+    height: calc(80vh - 80px);
     background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 80px;
 }
 
 .about__content {
-    display: inline-flexbox;
     margin: 0 auto;
     position: relative;
     width: 100%;
@@ -518,7 +529,7 @@
 }
 
 .about__content__swiper .swiper-pagination {
-    margin-top: 420px;
+    margin-top: 440px;
 }
 
 
@@ -553,7 +564,6 @@
       align-items: center;
     }
 
-
 .swiper-pagination .swiper-pagination-bullet {
     width: 20px;
     height: 20px;
@@ -568,14 +578,13 @@
 /* ABOUT SECTION - MEDIA QUERIES */
 
 @media screen and (max-width: 960px) {
+    .about {
+        height: 900px;
+    }
+
     .about__container {
-        display: grid;
         grid-template-columns: auto;
-        align-items: center;
         justify-content: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 100vh;
     }
 
     .about__content {
@@ -587,10 +596,6 @@
         text-align: center;
     }
 
-    .about h1 {
-        margin-bottom: 32px;
-    }
-
     .about h2 {
         font-size: 2.6rem;
     }
@@ -600,17 +605,9 @@
         justify-self: center;
     }
 
-    .about__content__swiper .swiper-pagination {
-        margin-top: 0;
-        margin-bottom: 400px;
-    }
 }
 
 @media screen and (max-width: 768px) {
-    .about {
-        height: 900px;
-    }
-    
     .about h1 {
         font-size: 4rem;
     }
@@ -620,8 +617,8 @@
     }
 
     .about__content__swiper {
-    width: 500px;
-    height: 360px;
+        width: 500px;
+        height: 360px;
     }
 
     .swiper-pagination .swiper-pagination-bullet {
@@ -629,9 +626,6 @@
         height: 18px;
     }
 
-    .about__content__swiper .swiper-pagination {
-        margin-bottom: 370px;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -655,7 +649,7 @@
     }
     
     .about__content__swiper {
-        width: 360px;
+        width: 320px;
         height: 240px;
     }
 
@@ -671,7 +665,13 @@
     }
 
     .about__content__swiper .swiper-pagination {
-        margin-bottom: 300px;
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .about__content__swiper .swiper-pagination {
+        margin-top: 240px;
     }
 }
 
@@ -679,16 +679,16 @@
 
 .contact {
     background-color: #F5F0F6;
-    min-height: calc(100vh - 80px);
+    height: calc(100vh - 80px);
 }
 
 .contact h1 {
     background-color: #57CC99;
     background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
-    margin-bottom: 2rem;
     font-size: 5rem;
     text-align: center;
+    padding: 0 80px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -701,12 +701,12 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: auto;
+    height: calc(90vh - 80px);
     background-color: #F5F0F6;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 0 80px;
 }
 
 .contact__content__img {
@@ -768,46 +768,11 @@
 
 @media screen and (max-width: 960px) {
     .contact__container {
-        display: grid;
         grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
     }
 
     .contact__content__img {
         text-align: center;
-        }
-
-    .contact__content__img img {
-        margin-right: 0;
-        width: 60%;
-        height: 60%;
-    }
-
-    .contact__content {
-        margin-left: 0;
-        text-align: center;
-    }
-    
-    .contact__content h2 {
-        text-align: center;
-    }
-
-    .contact__content p {
-        text-align: center;
-    }
-
-    .contact h1 {
-        font-size: 4rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .contact__content__img {
-    text-align: center;
     }
 
     .contact__content__img img {
@@ -828,7 +793,9 @@
     .contact__content p {
         text-align: center;
     }
+}
 
+@media screen and (max-width: 768px) {
     .contact h1 {
         font-size: 4rem;
     }
@@ -846,6 +813,11 @@
     .contact__content p {
         font-size: 1.4rem;
     }
+
+    .contact__btn {
+    font-size: 1rem;
+    padding: 10px 26px;
+    }
 }
 
 
@@ -853,12 +825,12 @@
 
 .footer {
     background-color: #F5F0F6;
-    padding: 4rem 2rem;
+    padding: 0 80px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 75vh;
 }
 
 #footer__logo {
@@ -911,7 +883,8 @@
 
 @media screen and (max-width: 960px) {
     #footer__logo {
-        font-size: 7rem;
+        font-size: 6rem;
+        margin: 70px 0;
     }
 }
 
@@ -928,8 +901,7 @@
 
 @media screen and (max-width: 568px) {
     .footer {
-        padding: 2rem 1rem;
-        height: 40vh;
+        padding: 0 40px;
     }
 
     #footer__logo {
@@ -951,10 +923,6 @@
 }
 
 @media screen and (max-width: 410px) {
-    .footer {
-        padding: 0;
-        height: 30vh;
-    }
     #footer__logo {
     font-size: 3rem;  
     margin: 20px 0; 
@@ -1217,10 +1185,10 @@
 
 #contactform__main {
     background-color: #F5F0F6;
-    padding: 1rem 2rem;
+    padding: 0 80px;
     display: flex;
     flex-direction: column;
-    justify-content: first-baseline;
+    justify-content: center;
     align-items: center;
     min-height: calc(100vh - 80px);
 }
@@ -1233,14 +1201,13 @@
     height: auto;
     background-color: #F5F0F6;
     width: 100%;
-    padding: 0 50px;
 }
 
 .contact__header {
     background-color: #57CC99;
     background-image: linear-gradient(to top, #57CC99 0%, #19647E 100%);
     background-size: 100%;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 1rem;
     -webkit-background-clip: text;
@@ -1454,5 +1421,32 @@
 
     .form__control textarea {
         width: 300px;
+    }
+}
+
+/* MEDIA QUERIES FOR SPICE CHECK ON 280px MAX WIDTH */
+@media screen and (max-width: 280px) {
+    #navbar__logo {
+        font-size: 2rem;
+    }
+    
+    .services h1 {
+        padding: 0 20px;
+    }
+
+    .services__card {
+        width: 250px;
+    }
+
+    .about h1 {
+        padding: 0 20px;
+    }
+
+    .contact__container {
+        padding: 0 20px;
+    }
+
+    #footer__logo {
+        font-size: 2.5rem;
     }
 }
