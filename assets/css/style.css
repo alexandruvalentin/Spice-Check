@@ -673,6 +673,11 @@
     .about__content__swiper .swiper-pagination {
         margin-top: 240px;
     }
+
+    .about__content__swiper {
+        width: 220px;
+        height: 180px;
+    }
 }
 
 /* CONTACT SECTION */
@@ -1442,11 +1447,24 @@
         padding: 0 20px;
     }
 
+    .contact h1 {
+        padding: 020px;
+    }
+
     .contact__container {
+        padding: 0 20px;
+    }
+
+    .footer {
         padding: 0 20px;
     }
 
     #footer__logo {
         font-size: 2.5rem;
     }
+
+    .social__icon__link {
+        font-size: 1.8rem;
+    }
+
 }
