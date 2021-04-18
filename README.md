@@ -6,6 +6,8 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
  [Live Website](https://alexandruvalentin.github.io/Spice-Check/)
 
+ ![Am I Responsive](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/amiresponsive.jpg)
+
 ## UX
 
 ### __Business Goals__
