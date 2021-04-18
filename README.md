@@ -77,19 +77,21 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 
 * Colors
 
-    To be updated
+   ![Color Palette](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/color-palette.png)
 
 * Typography
 
-    To be updated
+  * One general font was used for this project, with a ```serif``` fallback, chosen in attempt to suggest cheerfulness. 
+    * [Lodrina Solid](https://fonts.google.com/specimen/Londrina+Solid).
 
 * Media
 
-    To be updated
+  * Images used throughout the project are relevant to the purpose of the website.
+  * All images have been resized and compressed in order to boost the UX flow.
 
 * Iconography
 
-    To be updated
+  * Icons have been used throughout the website in order to boost the UX efficiency.
 
 ## Features
 
