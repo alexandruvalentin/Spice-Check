@@ -43,7 +43,7 @@
 > Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all working correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
 
 - Mobile
-> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is mobile system-cross compatible.
+> Testing was done on Android 9, Android 10, iOS 12, iOS 13 and iOS 14. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is mobile system-cross compatible.
 
 - Tablet
 > Testing was done on Galaxy Tab 4 and iPad Pro. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is tablet system-cross compatible.
@@ -80,7 +80,10 @@
  - JavaScript
 > Javascript methods and functions were tested for the expected outcome in the console using the console.log() command.
 
+## Further Testing
 
+ - Overflow and Spelling
+> The website was tested for overflow using [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Chrome extension. No faults were found. Spelling was checked thoroughly using W3C Spell Checker. Only spelling errors found were in my full name, displayed in the copyrights section in the footer.
 
 
 
