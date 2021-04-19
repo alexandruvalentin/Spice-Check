@@ -21,8 +21,8 @@ async function fetchAPI (){
     generateHTML(data.hits);
     })
     .catch(function(error) {
-    alert(error);
-    });
+    searchResult.innerHTML = "<h3>Couldn't fetch API! Try again...</h3>"
+    })
     }
 
 function generateHTML(results) {
