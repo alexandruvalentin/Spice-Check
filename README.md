@@ -153,6 +153,7 @@ This is the presentation website for a new Food Web Application. Using HTML/CS/J
     * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) was used to resize images
 
 ## Testing
+
  - ### Click [here](https://github.com/alexandruvalentin/Spice-Check/blob/master/TEST.md) for the full testing process.
 
 
@@ -202,6 +203,6 @@ This is the presentation website for a new Food Web Application. Using HTML/CS/J
 
 ## Acknowledgements
 
-- **My mentor**: Precious Ijege for continuous and helpful feedback throughout the project.
+- **My mentor**: Precious Ijege for continuous and helpful feedback along the project.
 - The **Slack** community of Code Institute for feedback.
-- **Peer student**: [Paul Istratoaie](https://github.com/pinco227) for helpful feedback throughout the coding process and for helping with device testing.
+- **Peer student**: [Paul Istratoaie](https://github.com/pinco227) for helpful feedback along the coding process and for helping with device testing.

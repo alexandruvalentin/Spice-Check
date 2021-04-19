@@ -1,5 +1,10 @@
 /* ------------------------ INDEX.HTML ------------------------ */
 /* ------------------------------------------------------------- */
+
+/* GOOGLE FONT IMPORT; weight: 300,400,900 */
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +14,6 @@
 }
 
 /* NAVIGATION BAR */
-
 .navbar {
     background: #F5F0F6;
     height: 80px;
@@ -82,9 +86,7 @@
     transition: all 0.4s ease;
 }
 
-
 /* NAVBAR - MEDIA QUERIES */
-
 @media screen and (max-width: 960px) {
     .navbar__container {
         display: flex;
@@ -159,7 +161,6 @@
 
     /*  Function to turn the hamburger menu bars into a cross when actioned;
     credits: https://www.geeksforgeeks.org/how-to-convert-the-hamburger-icon-of-navigation-menu-to-x-on-click/ */
-
     #mobile__menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -180,7 +181,6 @@
 }
 
 /* HERO SECTION */
-
 .main {
     background-color: #F5F0F6;
 }
@@ -253,7 +253,6 @@
     height: 90%;
     width: 90%;
 }
-
 
 /* HERO SECTION - MEDIA QUERIES */
 @media screen and (max-width: 960px) {
@@ -328,7 +327,6 @@
 }
 
 /* SERVICES SECTION */
-
 .services {
     padding: 40px 0;
     background: #F5F0F6;
@@ -445,7 +443,8 @@
     .services__card {
         width: 300px;
         height: 440px;
-    }   
+    }
+
     .services__card h2 {
         top: 270px;
         left: 20px;
@@ -461,8 +460,8 @@
         top: 370px;
     }
 }
-/* ABOUT SECTION */
 
+/* ABOUT SECTION */
 .about {
     background-color: #F5F0F6;
     height: calc(100vh - 80px);
@@ -576,7 +575,6 @@
 }
 
 /* ABOUT SECTION - MEDIA QUERIES */
-
 @media screen and (max-width: 960px) {
     .about {
         height: 900px;
@@ -770,7 +768,6 @@
 }
 
 /* CONTACT CONTAINER - MEDIA QUERIES */
-
 @media screen and (max-width: 960px) {
     .contact__container {
         grid-template-columns: auto;
@@ -827,7 +824,6 @@
 
 
 /* FOOTER SECTION */
-
 .footer {
     background-color: #F5F0F6;
     padding: 0 80px 40px;
@@ -885,7 +881,6 @@
 }
 
 /* FOOTER SECTION - MEDIA QUERIES */
-
 @media screen and (max-width: 960px) {
     #footer__logo {
         font-size: 6rem;
@@ -1022,7 +1017,6 @@
 
 
 /* RECIPE CONTAINER -- BEFORE */
-
 .recipe__container.before {
     height: auto;
     width: 100%;
@@ -1157,7 +1151,6 @@
 }
 
 /* RECIPE CONTAINER - MEDIA QUERIES */
-
 @media screen and (max-width: 960px) {
     .recipe__container.before .header {    
         margin-top: 8rem;
@@ -1187,7 +1180,6 @@
 
 /* ------------------------ CONTACT.HTML ------------------------ */
 /* ------------------------------------------------------------- */
-
 #contactform__main {
     background-color: #F5F0F6;
     padding: 0 80px;
@@ -1340,7 +1332,6 @@
 }
 
 /* CONTACT.HTML - MEDIA QUERIES */
-
 @media screen and (max-width: 768px) {
     .contact__header {
         font-size: 4rem;
@@ -1349,17 +1340,17 @@
     .form__control {
         font-size: 1.4rem;
         margin-bottom: 0.4rem;
-      }
+    }
     
     .form__control label {
         font-size: 1.4rem;
         margin-bottom: 0.4rem;
-      }
+    }
     
     .form__control input {
         width: 520px;
         font-size: 1.2rem;
-      }
+    }
 
     .form__control textarea {
             width: 520px;
@@ -1466,5 +1457,4 @@
     .social__icon__link {
         font-size: 1.8rem;
     }
-
 }
