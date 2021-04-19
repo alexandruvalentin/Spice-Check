@@ -1,6 +1,9 @@
 ## Encountered Issues
 - The buttons(anchor elements) in the hero container of the home page wouldn't take top margin;
-    - **FIXED** by add adding a display value to the element, as per this [article](https://css-tricks.com/forums/topic/anchor-tag-not-registering-margin-top/)
+    - **FIXED** by adding a display value to the element, as per this [article](https://css-tricks.com/forums/topic/anchor-tag-not-registering-margin-top/)
+
+- The slideshow gallery wouldn't loop continously through the images and would stop on the last one;
+    - **FIXED** by adding the statement of ```loop: true```
 
 ## Testing User Stories
 - ## As a user I need:
