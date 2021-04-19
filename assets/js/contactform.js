@@ -1,11 +1,11 @@
 // RegEx function(credit: https://gist.github.com/tmazur/3965625)
-function isValidEmail(emailAddress) {
+const isValidEmail = (emailAddress) => {
     var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
     return pattern.test(emailAddress);
 };
 
 // RegEx function(credit: https://stackoverflow.com/a/35458020/14692310)
-function isValidName(fullName) {
+const isValidName = (fullName) => {
     var pattern = new RegExp(/^[A-Z][a-zA-Z]{3,}(?: [A-Z][a-zA-Z]*){0,2}$/i);
     return pattern.test(fullName);
 }
@@ -29,12 +29,11 @@ const resetElm = (elm) => {
     elm.nextElementSibling.classList.add('hide');
 }
 
-//Adds 'invalid' error message underneath input field if it is faulty
+//Adds 'invalid' error message underneath input field
 const invalidateElm = (elm) => {
     elm.classList.add('invalid');
     elm.nextElementSibling.classList.remove('hide');
 }
-
 
 const validateInput = () => {
     if(!isValidationOn) return;

@@ -722,7 +722,6 @@
 }
 
 .contact__content {
-    display: inline-flexbox;
     margin-left: 40px;
     position: relative;
     width: 100%;
