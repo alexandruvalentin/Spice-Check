@@ -8,7 +8,7 @@ const isValidEmail = (emailAddress) => {
 const isValidName = (fullName) => {
     var pattern = new RegExp(/^[A-Z][a-zA-Z]{3,}(?: [A-Z][a-zA-Z]*){0,2}$/i);
     return pattern.test(fullName);
-}
+};
 
 // Declare constants
 const form = document.querySelector('form[name="contact__form"]');
@@ -27,13 +27,13 @@ let isValidationOn = false; //initiate as false;
 const resetElm = (elm) => {
     elm.classList.remove('invalid');
     elm.nextElementSibling.classList.add('hide');
-}
+};
 
 //Adds 'invalid' error message underneath input field
 const invalidateElm = (elm) => {
     elm.classList.add('invalid');
     elm.nextElementSibling.classList.remove('hide');
-}
+};
 
 const validateInput = () => {
     if(!isValidationOn) return;
@@ -61,7 +61,7 @@ const validateInput = () => {
         isFormValid = false;
         invalidateElm(messageInput);
     }
-}
+};
 
 //Loop through each input and validate
 inputs.forEach(input => {
@@ -80,5 +80,5 @@ form.addEventListener("submit", (e) => {
     if (isFormValid) {
         contactForm.remove();
         thanks.classList.remove('hide');
-    };
+    }
 });

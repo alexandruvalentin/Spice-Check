@@ -83,7 +83,7 @@
 ## Further Testing
 
  - Overflow and Spelling
-> The website was tested for overflow using [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Chrome extension. No faults were found. Spelling was checked thoroughly using W3C Spell Checker. Only spelling errors found were in my full name, displayed in the copyrights section in the footer.
+> The website was tested for overflow using [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Chrome extension. No faults were found. Spelling was checked thoroughly using W3C [Spell Checker](https://www.w3.org/2002/01/spellchecker). Only spelling errors found were in my full name, displayed in the copyrights section in the footer.
 
 
 

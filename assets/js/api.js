@@ -21,14 +21,14 @@ async function fetchAPI (){
     generateHTML(data.hits);
     })
     .catch(function(error) {
-    searchResult.innerHTML = "<h3>Couldn't fetch API! Try again...</h3>"
-    })
+    searchResult.innerHTML = "<h3>Couldn't fetch API! Try again...</h3>";
+    });
     }
 
 function generateHTML(results) {
     recipeContainer.classList.remove('before');
         if(results.length == 0) {
-            searchResult.innerHTML = "<h3>No results found! Try again...</h3>"
+            searchResult.innerHTML = "<h3>No results found! Try again...</h3>";
         } else {
     const generatedHTML = results.map(result => {
     return `
@@ -43,8 +43,8 @@ function generateHTML(results) {
         <p class="result__item__data">Calories: ${result.recipe.calories.toFixed(0)}</p>
         <p class="result__item__data">Diet Labels: ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'No Data Found'}</p>
         </div>
-    `
-    }).join("")
+    `;
+    }).join("");
     searchResult.innerHTML = generatedHTML;
     }
-    };
+    }
