@@ -1,13 +1,18 @@
 // RegEx function(credit: https://gist.github.com/tmazur/3965625)
 const isValidEmail = (emailAddress) => {
-    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    const pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
     return pattern.test(emailAddress);
 };
 
 // RegEx function(credit: https://stackoverflow.com/a/35458020/14692310)
 const isValidName = (fullName) => {
-    var pattern = new RegExp(/^[A-Z][a-zA-Z]{3,}(?: [A-Z][a-zA-Z]*){0,2}$/i);
+    const pattern = new RegExp(/^[A-Z][a-zA-Z\']{2,}(?: [A-Z][a-zA-Z\']*){0,2}$/i);
     return pattern.test(fullName);
+};
+
+const isValidMessage = (textMessage) => {
+    const pattern = new RegExp(/^[\s\w\(\)\.\,\;\:\'\"\?\!\&\/]{20,160}$/i);
+    return pattern.test(textMessage);
 };
 
 // Declare constants
@@ -51,8 +56,8 @@ const validateInput = () => {
         isFormValid = false;
         invalidateElm(emailInput);
     }
-    //Returns 'invalid' error message if the Message input is empty or lower than 20 characters
-    if (!messageInput.value || messageInput.value.length < 20) {
+    //Returns 'invalid' error message if the Message input is empty, lower than 20 characters   
+    if (!isValidMessage(messageInput.value)) {
         isFormValid = false;
         invalidateElm(messageInput);
     }

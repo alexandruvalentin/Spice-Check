@@ -1,3 +1,4 @@
+//Declare constants
 const menu = document.querySelector('#mobile__menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
