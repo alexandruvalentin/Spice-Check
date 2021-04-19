@@ -14,7 +14,7 @@ searchForm.addEventListener('submit', (e) => {
     fetchAPI();
 });
 
-async function fetchAPI (){
+const fetchAPI = async () => {
     const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${app_ID}&app_key=${app_KEY}&to=20`;
     await fetch(baseURL)
     .then(function(response) {
@@ -28,7 +28,7 @@ async function fetchAPI (){
     });
     }
 
-function generateHTML(results) {
+const generateHTML = (results) => {
     recipeContainer.classList.remove('before');
         if(results.length == 0) {
             searchResult.innerHTML = "<h3>No results found! Try again...</h3>";
