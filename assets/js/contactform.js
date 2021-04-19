@@ -29,7 +29,7 @@ const resetElm = (elm) => {
     elm.nextElementSibling.classList.add('hide');
 };
 
-//Adds 'invalid' error message underneath input field
+//Displays 'invalid' error message underneath input field
 const invalidateElm = (elm) => {
     elm.classList.add('invalid');
     elm.nextElementSibling.classList.remove('hide');
@@ -51,13 +51,8 @@ const validateInput = () => {
         isFormValid = false;
         invalidateElm(emailInput);
     }
-    //Returns 'invalid' error message if the Message input is lower than 20 characters
-    if (messageInput.value.length < 20) {
-        isFormValid = false;
-        invalidateElm(messageInput);
-    }
-    //Returns 'invalid' error message if the Message input is empty or contains special characters
-    if (!isValidName(messageInput.value)) {
+    //Returns 'invalid' error message if the Message input is empty or lower than 20 characters
+    if (!messageInput.value || messageInput.value.length < 20) {
         isFormValid = false;
         invalidateElm(messageInput);
     }
