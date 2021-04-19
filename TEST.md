@@ -24,6 +24,7 @@
 > Responsiveness was explored and tested using DevTools and on a wide variety of devices of different sizes, in both portrait and landscape, in order to detect any issue. No issues were found; elements align correctly in space, none being obstructed. In conclusion, the website is fully responsive.
 
 - ## Functionality
+
 - Links and buttons
     - Navigation bar is fully functional, logo image included.
     - Links are fully functional across the page.
@@ -42,10 +43,10 @@
 > Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all working correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
 
 - Mobile
-> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is mobile system-cross compatible.
 
 - Tablet
-> Testing was done on Galaxy Tab 4 and iPad Pro. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+> Testing was done on Galaxy Tab 4 and iPad Pro. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is tablet system-cross compatible.
 
 ### Devices test
 
@@ -53,7 +54,7 @@
 
  ### Browser test
 
- > The website was tested on Google Chrome, Firefox, Safari and Microsoft Edge. Browser versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/). Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+ > The website was tested on Google Chrome, Firefox, Safari and Microsoft Edge. Browser versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/). Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is browser-cross compatible.
 
 ## Testing Performance
  > Performance tests were run for both Desktop and Mobile using Lighthouse in Google Chrome. The results are slightly different every time due to device performance and value estimation. The results are satisfying. See further details below...
@@ -64,6 +65,16 @@
 - Mobile
 > ![Mobile Performance Report](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/lighthouse-mobile.jpg)
 
+## Code Validation
+
+ - ## HTML
+> Tested and validated using W3C Validator. Issues were adjusted and the only warning is received is for the lack of heading in the section elements which is not conclusive since the validator doesn't get the dynamically loaded content (which has headings for each page). The content for each page was separately tested with the same validator by direct input. No other errors or warnings.
+
+ - ## CSS
+> Tested and validated with W3C CSS Validator. Only errors displayed are URI related (https://unpkg.com/swiper@6.5.7/swiper-bundle.min.css) to the swiper and warnings concerning the vendor prefixes, which can be ignored.
+
+ - ## JavaScript
+> To be updated
 
 
 
