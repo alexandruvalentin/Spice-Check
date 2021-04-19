@@ -17,5 +17,28 @@
     - to be able to access your website across a range of devices
     >:heavy_check_mark: The website was built with a mobile-first approach and is fully responsive.
 
+## Testing Responsiveness
+- Responsiveness
+
+> Responsiveness was explored and tested using DevTools and on a wide variety of devices of different sizes, in both portrait and landscape, in order to detect any issue. No issues were found; elements align correctly in space, none being obstructed. In conclusion, the website is fully responsive.
+ 
+### Operating System test
+- Desktop
+> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+
+- Mobile
+> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+
+- Tablet
+> Testing was done on Galaxy Tab 4 and iPad Pro. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+
+### Devices test
+
+ > Testing was done on HP Notebook, Galaxy S20, iPhone 7/8/11/12/12 Pro, Galaxy Tab 4 and iPad Pro 12.9 2020. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is platform-cross compatible.
+
+ ### Browser test
+
+ > The website was tested on Google Chrome, Firefox, Safari and Microsoft Edge. Browser versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/). Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+
 
 
