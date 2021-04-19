@@ -1,6 +1,6 @@
 # Spice Check
 
-This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS. Spice Check is an educational project that serves as the Milestone Project number 2 for the Full-Stack Software Developer program powered by Code Institute.
+This is the presentation website for a new Food Web Application. Using HTML/CS/JS, Spice Check was built as an educational project and serves as the Milestone Project 2 for the **Full-Stack Software Development** programme powered by **Code Institute**.
 
 ## Demo 
 
@@ -129,7 +129,7 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
 ## Technologies Used
 
 - Workspace
-    * [Gitpod](https://gitpod.io/) was used as an online Integrated Development Environment
+    * [Gitpod](https://gitpod.io/) was used as IDE
 
 - Languages
     * [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -144,13 +144,13 @@ This is the presentation website for a Food Recipe Website that uses HTML/CSS/JS
     * [Github](https://www.github.com) for repository hosting
 
 - Wireframes
-    * [Balsamiq](https://balsamiq.com/) for creating the [wireframes](#wireframes)
+    * [Balsamiq](https://balsamiq.com/) was used to create the wireframes
 
 - Media
-    * [ConvertIco](https://convertico.com/) for converting the logo format from .png to .ico
-    * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
+    * [ConvertIco](https://convertico.com/) was used to convert the logo format from .png to .ico
+    * [Coolors](https://coolors.co/) was used to create the color palette
     * [Photopea](https://www.photopea.com/) was used to edit images
-    * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for resizing images
+    * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) was used to resize images
 
 ## Testing
  - ### Click [here](https://github.com/alexandruvalentin/Spice-Check/blob/master/TEST.md) for the full testing process.
