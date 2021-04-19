@@ -9,10 +9,10 @@ menu.addEventListener('click', function () {
     menuLinks.classList.toggle('active');
 })
 
-// Hide the mobile menu upon menu item click;
+// Hide the mobile menu upon clicking a menu item;
 const hideMenu = () => {
     const menuBars = document.querySelector('.is-active')
-    if (window.innerWidth <= 768 && menuBars) {
+    if (window.innerWidth <= 960 && menuBars) {
         menu.classList.toggle('is-active')
         menuLinks.classList.remove('active')
     }
