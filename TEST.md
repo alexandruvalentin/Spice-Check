@@ -17,14 +17,29 @@
     - to be able to access your website across a range of devices
     >:heavy_check_mark: The website was built with a mobile-first approach and is fully responsive.
 
-## Testing Responsiveness
-- Responsiveness
+## Testing Responsiveness and Functionality
+
+- ## Responsiveness
 
 > Responsiveness was explored and tested using DevTools and on a wide variety of devices of different sizes, in both portrait and landscape, in order to detect any issue. No issues were found; elements align correctly in space, none being obstructed. In conclusion, the website is fully responsive.
+
+- ## Functionality
+- Links and buttons
+    - Navigation bar is fully functional, logo image included.
+    - Links are fully functional across the page.
+    - Social media icon buttons work as external links and open the pages in new tabs as expected.
+
+- Slideshow Gallery
+    - Images slide horizontally as expected with the active indicator showing which image is being shown at any given time.
+
+- Form Validation
+    - The contact form was tested for validation by trying to submit firstly with no input data and then by filling in the fields one by one. Results as expected, error messages withdrawn upon insertion of expected input. The email field asks for email format with @, the full name field ask do not allow special characters and any word should be longer than three letters, and the message input also doesn't allow special characters and needs to be longer than 20 characters.
+
+## Testing Compatibility
  
 ### Operating System test
 - Desktop
-> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
+> Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all working correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
 
 - Mobile
 > Testing was done on Windows 7 and Windows 10. Features appear to be functional from top to bottom. Buttons, links, slideshow gallery and contact form, all work correctly. No overflow, overlay or error messages encountered. Everything falls into place in space. In conclusion, the website is desktop system-cross compatible.
@@ -48,5 +63,7 @@
 
 - Mobile
 > ![Mobile Performance Report](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/lighthouse-mobile.jpg)
+
+
 
 
