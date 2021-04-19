@@ -65,16 +65,24 @@
 - Mobile
 > ![Mobile Performance Report](https://github.com/alexandruvalentin/Spice-Check/blob/master/readme-images/lighthouse-mobile.jpg)
 
+## Testing Accessibility
+
+- The website's accessibility was also tested using Lighthouse, scoring a satisfying result. In addition, good contrast color-pairs resulted from using the [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/)
+
 ## Code Validation
 
- - ## HTML
+ - HTML
 > Tested and validated using W3C Validator. Issues were adjusted and the only warning is received is for the lack of heading in the section elements which is not conclusive since the validator doesn't get the dynamically loaded content (which has headings for each page). The content for each page was separately tested with the same validator by direct input. No other errors or warnings.
 
- - ## CSS
+ - CSS
 > Tested and validated with W3C CSS Validator. Only errors displayed are URI related (https://unpkg.com/swiper@6.5.7/swiper-bundle.min.css) to the swiper and warnings concerning the vendor prefixes, which can be ignored.
 
- - ## JavaScript
-> To be updated
+ - JavaScript
+> Javascript methods and functions were tested for the expected outcome in the console using the console.log() command.
+
+
+
+
 
 
 
