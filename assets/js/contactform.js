@@ -49,7 +49,12 @@ const validateInput = () => {
         invalidateElm(emailInput);
     }
 
-    if (!messageInput.value) {
+    if (messageInput.value.length < 20) {
+        isFormValid = false;
+        invalidateElm(messageInput);
+    }
+
+    if (!isValidName(messageInput.value)) {
         isFormValid = false;
         invalidateElm(messageInput);
     }
